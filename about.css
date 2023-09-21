@@ -1,0 +1,58 @@
+body {
+  font-family: Sans-Serif;
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: inline;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+h1 {
+  font-size: 18px;
+  color: black;
+}
+p {
+  font-size: 10px;
+  color: black;
+}
+
+main {
+  display: inline;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+nav {
+  text-align: left;
+   margin: 2px;
+   padding: 5px;
+}
+nav a {
+   font-size: 10px;
+   font-weight: 400;
+   text-decoration: none;
+   color: blue;
+}
+nav a:hover {
+   font-weight: bold;
+   color: blue;
+}
+
+@media screen and (min-width: 300px) {
+   .light_blue, .green {
+       width: 50%
+   }
+}
+footer {
+  text-align: center;
+  color: red;
+}
